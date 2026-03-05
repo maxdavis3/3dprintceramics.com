@@ -1,0 +1,209 @@
+baseURL = "https://3dprintceramics.com/"
+languageCode = "en-us"
+title = "3D Print Ceramics"
+theme = "printwire"
+
+# All single-value params MUST come before [[params.*]] array tables
+[params]
+tagline       = "Your community hub for ceramic 3D printing."
+description   = "3D Print Ceramics — the community resource for ceramic additive manufacturing, covering machine reviews, clay body guides, and fabrication services."
+keywords      = "ceramic 3D printing, clay extrusion, ceramics community, DIW printing, ceramic materials, stoneware printing, studio ceramics"
+logoEmoji     = "🏺"
+contactEmail  = "maxdavisgroup@gmail.com"
+ogImage       = "images/01_voronoi_vase.png"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#c2714f"
+colorPrimaryDark  = "#a85e3e"
+colorPrimaryLight = "#d4896b"
+colorBgDark       = "#0d0b09"
+colorBgSection    = "#111009"
+colorBgCard       = "#1a1510"
+colorBgCardHover  = "#231d15"
+colorBorder       = "rgba(194,113,79,0.18)"
+colorBorderLight  = "rgba(194,113,79,0.08)"
+
+fontPrimary   = "Josefin+Sans"
+fontSecondary = "Lato"
+
+pubmedQuery    = "ceramic+additive+manufacturing+3D+printing"
+pubmedFallback = "ceramic+3D+printing"
+newsFallbackImages = [
+  "images/02_printer_action.png",
+  "images/07_studio_workstation.png",
+  "images/04_extrusion_closeup.png",
+]
+
+heroEyebrow  = "Ceramic Additive Manufacturing"
+heroTitle    = "From <em>Clay Body</em><br>to Digital Form"
+heroSubtitle = "Your community hub for ceramic 3D printing — research, machine reviews, material guides, and fabrication services for studio potters and industrial engineers alike."
+heroCta1Text = "Latest Research"
+heroCta1URL  = "/articles/"
+heroCta2Text = "Services"
+heroCta2URL  = "/services/"
+heroImage    = "images/01_voronoi_vase.png"
+
+newsSectionTitle    = "Ceramic 3D Printing Research"
+newsSectionSubtitle = "The latest peer-reviewed findings from the ceramic additive manufacturing field."
+
+overviewLabel   = "Our Coverage"
+overviewTitle   = "A Community for Every Ceramic Printer"
+overviewText    = "Whether you're printing functional stoneware on a Cerambot, firing porcelain from a Delta-style clay printer, or running Lithoz LCM systems for dental zirconia — this is your community."
+overviewText2   = "We cover the full spectrum of ceramic additive manufacturing: machine comparisons, clay body formulation tips, firing schedule guides, and links to the latest peer-reviewed research."
+overviewImage   = "images/07_studio_workstation.png"
+overviewBtnText = "Learn More"
+overviewBtnURL  = "/about/"
+
+applicationsLabel = "Use Cases"
+applicationsTitle = "Ceramic 3D Printing Applications"
+
+servicesLabel    = "What We Offer"
+servicesTitle    = "Coverage & Services"
+servicesSubtitle = "Expert coverage and fabrication services for ceramic additive manufacturing."
+
+clusterLabel = "Ceramic Cluster"
+clusterTitle = "Related Ceramic 3D Printing Sites"
+
+newsletterTitle = "Ceramic Printing Community"
+newsletterText  = "Machine reviews, material guides, and research updates — direct to your inbox."
+
+ctaTitle   = "Join the Community"
+ctaText    = "Get the latest research, machine news, and clay formulation guides in your inbox."
+ctaImage   = "images/09_abstract_sculpture.png"
+ctaBtnText = "Subscribe Free"
+ctaBtnURL  = "/contact/"
+
+[[params.stats]]
+count  = 3
+suffix = "B+"
+label  = "Market by 2034"
+
+[[params.stats]]
+count  = 28
+suffix = "%"
+label  = "Annual CAGR"
+
+[[params.stats]]
+count  = 87
+suffix = ""
+label  = "Vendors at Formnext 2025"
+
+[[params.stats]]
+count  = 4
+suffix = "M+"
+label  = "Parts Printed (Lithoz)"
+
+[[params.applications]]
+title       = "Studio Pottery"
+description = "Clay extrusion for hand-finished studio ware — from mugs to sculptural vessels with complex surface patterns."
+image       = "images/08_teacup_set.png"
+
+[[params.applications]]
+title       = "Lighting Design"
+description = "Perforated and translucent ceramic lampshades produced directly from parametric 3D models — no molds required."
+image       = "images/13_lamp_shade.png"
+
+[[params.applications]]
+title       = "Tile & Interiors"
+description = "Custom relief tiles for residential and commercial interiors with surface complexity beyond traditional press methods."
+image       = "images/12_ceramic_tiles.png"
+
+[[params.applications]]
+title       = "Industrial Parts"
+description = "Technical ceramics for high-temperature and corrosion-resistant applications in energy, aerospace, and chemical industries."
+image       = "images/16_heat_exchanger.png"
+
+[[params.servicesPreview]]
+icon        = "🏺"
+title       = "DIW Clay Printing"
+description = "Extrusion-based ceramic printing for stoneware, porcelain, and technical paste systems."
+
+[[params.servicesPreview]]
+icon        = "🔥"
+title       = "Firing & Finishing"
+description = "In-house debinding, sintering, glazing, and surface treatment to final specification."
+
+[[params.servicesPreview]]
+icon        = "📚"
+title       = "Machine Reviews"
+description = "Independent editorial coverage of clay printers from Cerambot, WASP, Cctree, and more."
+
+[[params.servicesPreview]]
+icon        = "🔬"
+title       = "Material Guides"
+description = "Formulation guides for clay bodies, slips, and technical pastes optimized for printing."
+
+[[params.services]]
+name        = "DIW Clay Printing"
+description = "Extrusion-based ceramic printing for stoneware, porcelain, and technical paste systems."
+icon        = "🏺"
+
+[[params.services]]
+name        = "Firing & Finishing"
+description = "In-house debinding, sintering, glazing, and surface treatment to final specification."
+icon        = "🔥"
+
+[[params.services]]
+name        = "Machine Reviews"
+description = "Independent editorial coverage of clay printers from Cerambot, WASP, Cctree, and more."
+icon        = "📚"
+
+[[params.services]]
+name        = "Material Guides"
+description = "Formulation guides for clay bodies, slips, and technical pastes optimized for printing."
+icon        = "🔬"
+
+[[params.clusterLinks]]
+name        = "3dprintceramic.com"
+url         = "https://3dprintceramic.com"
+description = "Flagship — ceramic AM news & services"
+
+[[params.clusterLinks]]
+name        = "3dprintporcelain.com"
+url         = "https://3dprintporcelain.com"
+description = "Porcelain & fine clay printing"
+
+[[params.clusterLinks]]
+name        = "3dprintstone.com"
+url         = "https://3dprintstone.com"
+description = "Stone & geopolymer AM"
+
+[[params.clusterLinks]]
+name        = "3dprinttile.com"
+url         = "https://3dprinttile.com"
+description = "Custom ceramic tile design"
+
+[[params.clusterLinks]]
+name        = "tile3dprint.com"
+url         = "https://tile3dprint.com"
+description = "Tile fabrication services"
+
+[[menu.main]]
+name   = "Home"
+url    = "/"
+weight = 1
+
+[[menu.main]]
+name   = "About"
+url    = "/about/"
+weight = 2
+
+[[menu.main]]
+name   = "Articles"
+url    = "/articles/"
+weight = 3
+
+[[menu.main]]
+name   = "Services"
+url    = "/services/"
+weight = 4
+
+[[menu.main]]
+name   = "Contact"
+url    = "/contact/"
+weight = 5
+
+[[menu.main]]
+name   = "Advertise"
+url    = "/advertise/"
+weight = 6
