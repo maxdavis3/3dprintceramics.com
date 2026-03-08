@@ -30,7 +30,7 @@ pubmedQuery    = "ceramic+additive+manufacturing+3D+printing"
 pubmedFallback = "ceramic+3D+printing"
 newsFallbackImages = [
   "images/02_printer_action.png",
-  "images/07_studio_workstation.png",
+  "images/10_industrial_printer.png",
   "images/04_extrusion_closeup.png",
 ]
 
@@ -41,7 +41,7 @@ heroCta1Text = "Latest Research"
 heroCta1URL  = "/articles/"
 heroCta2Text = "Services"
 heroCta2URL  = "/services/"
-heroImage    = "images/01_voronoi_vase.png"
+heroImage    = "images/05_lattice_cubes.png"
 
 newsSectionTitle    = "Ceramic 3D Printing Research"
 newsSectionSubtitle = "The latest peer-reviewed findings from the ceramic additive manufacturing field."
@@ -50,7 +50,7 @@ overviewLabel   = "Our Coverage"
 overviewTitle   = "A Community for Every Ceramic Printer"
 overviewText    = "Whether you're printing functional stoneware on a Cerambot, firing porcelain from a Delta-style clay printer, or running Lithoz LCM systems for dental zirconia — this is your community."
 overviewText2   = "We cover the full spectrum of ceramic additive manufacturing: machine comparisons, clay body formulation tips, firing schedule guides, and links to the latest peer-reviewed research."
-overviewImage   = "images/07_studio_workstation.png"
+overviewImage   = "images/03_textured_collection.png"
 overviewBtnText = "Learn More"
 overviewBtnURL  = "/about/"
 
@@ -137,21 +137,25 @@ description = "Formulation guides for clay bodies, slips, and technical pastes o
 name        = "DIW Clay Printing"
 description = "Extrusion-based ceramic printing for stoneware, porcelain, and technical paste systems."
 icon        = "🏺"
+image       = "images/11_glazed_bowl.png"
 
 [[params.services]]
 name        = "Firing & Finishing"
 description = "In-house debinding, sintering, glazing, and surface treatment to final specification."
 icon        = "🔥"
+image       = "images/19_before_after_firing.png"
 
 [[params.services]]
 name        = "Machine Reviews"
 description = "Independent editorial coverage of clay printers from Cerambot, WASP, Cctree, and more."
 icon        = "📚"
+image       = "images/15_greenware_row.png"
 
 [[params.services]]
 name        = "Material Guides"
 description = "Formulation guides for clay bodies, slips, and technical pastes optimized for printing."
 icon        = "🔬"
+image       = "images/17_artist_hands.png"
 
 [[params.clusterLinks]]
 name        = "3dprintceramic.com"

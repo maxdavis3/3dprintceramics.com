@@ -3,7 +3,7 @@ title: "Services — 3D Print Ceramics"
 type: "page"
 layout: "services"
 subtitle: "Expert coverage and fabrication services for ceramic additive manufacturing."
-heroImage: "images/07_studio_workstation.png"
+heroImage: "images/06_wall_panel.png"
 
 servicesTitle: "Coverage & Services"
 servicesIntro: "From editorial research coverage to hands-on fabrication — 3D Print Ceramics supports the full lifecycle of ceramic additive manufacturing."
